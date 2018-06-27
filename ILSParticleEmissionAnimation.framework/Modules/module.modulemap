@@ -1,0 +1,11 @@
+framework module ILSParticleEmissionAnimation {
+  umbrella header "ILSParticleEmissionAnimation.h"
+
+  export *
+  module * { export * }
+}
+
+module ILSParticleEmissionAnimation.Swift {
+    header "ILSParticleEmissionAnimation-Swift.h"
+    requires objc
+}
